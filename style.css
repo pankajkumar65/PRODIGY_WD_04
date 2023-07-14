@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(238, 231, 231);
+    width: 234px;
+    transition: transform 0.3s ease-in;
+    height: 100vh;
+    position: absolute;
+}
+
+.sidebargo {
+    transform: translate(-233px, 0px);
+    position: absolute;
+}
+
+.sidebar nav {
+    padding: 18px;
+    font-size: 23px;
+
+}
+
+.sidebar nav li {
+    padding: 35px;
+    list-style: none;
+    font-family: 'Libre Caslon Text', serif;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    padding: 70px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.developerinfo {
+    /* background-color: brown; */
+    height: 56vh;
+    width: 78vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hello {
+    font-size: 55px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Libre Caslon Text', serif;
+}
+
+.about {
+    font-size: 31px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.moreabout {
+    margin-top: 21px;
+    font-family: 'Libre Caslon Text', serif;
+}
+
+.devpic img {
+    height: 56vh;
+    padding: 0 1vw 23px 0;
+}
+
+.btn {
+    border-radius: 21px;
+    color: white;
+    background-color: #2b45e2;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 7px;
+    margin: 35px 4px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 13px;
+    margin: 5px;
+    padding: 6px 8px
+}
+
+.btn:hover {
+    color: aqua;
+    background-color: white;
+}
+
+.basicinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+    padding: 14px 8px;
+}
+
+.contactform {
+    padding: 0 30px;
+    padding-top: 123px;
+    font-family: 'Libre Caslon Text', serif;
+}
+
+.contactform form div input {
+    width: 32vw;
+    padding: 2px;
+    border-radius: 5px;
+    border: 3px solid black;
+    margin: 6px 0;
+}
+
+.contactform form div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#emailHelp {
+    font-size: 9px;
+    padding: 1px 0 0 0;
+    color: rgb(13, 6, 93);
+}
+
+
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 13px;
+    margin: 2px 3px
+}
+
+.blogcontainer h2 {
+    margin: 9px;
+    font-family: 'Libre Caslon Text', serif;
+}
+
+.blogitem {
+    margin: 14px;
+}
+
+.blogitem h3 {
+    font-family: 'Libre Caslon Text', serif;
+}
+
+.blogitem p {
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.myintro h2 {
+    font-family: 'Libre Caslon Text', serif;
+    margin: 14px;
+
+}
+
+.myintro p {
+    font-family: 'Source Code Pro', monospace;
+    margin: 14px;
+
+}
+
+.skillcontainer {
+    padding: 14px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+.skill {
+    width: 15vw;
+    height: 4px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred {
+    width: 15vw;
+    background-color: aqua;
+}
+
+.fifty {
+    width: 8vw;
+    background-color: yellow;
+}
+
+.t5 {
+    width: 5vw;
+}
+
+.projects {
+    padding: 6px 35px;
+    font-size: 20px;
+}
+
+.hamburger{
+    position: absolute;
+    left: 4px;
+    top: 10px;
+    cursor: pointer; 
+}
+.cross{
+    position: relative;
+    left:160px;
+}
+
+@media(max-width:1240px) {
+    
+    /* .sidebar {
+        transform: translate(-233px, 0px);
+        position: absolute;
+    } */
+
+}
+
+@media(max-width:1240px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .devpic{
+        transform: translate(24vw, -148vh);
+    }
+    .btn-d{
+        transform: translate(0px, 57px);
+    }
+}
